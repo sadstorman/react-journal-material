@@ -5,6 +5,7 @@ export const AuthLayout = ({ children, title = '' }) => {
   return (
     
     <Grid
+
       container
       spacing={ 0 }
       direction="column"
@@ -14,7 +15,6 @@ export const AuthLayout = ({ children, title = '' }) => {
     >
 
       <Grid item
-       className='box-shadow animate__animated animate__fadeIn'
        xs={ 3 }
        sx={{ 
             width: { sm: 450 },
